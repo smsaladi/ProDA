@@ -1,0 +1,937 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="manual_files/filelist.xml">
+<title>ProDA User Guide</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Phuong</o:Author>
+  <o:LastAuthor>Phuong</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>224</o:TotalTime>
+  <o:Created>2005-10-09T14:27:00Z</o:Created>
+  <o:LastSaved>2006-02-02T13:38:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1278</o:Words>
+  <o:Characters>7290</o:Characters>
+  <o:Lines>60</o:Lines>
+  <o:Paragraphs>17</o:Paragraphs>
+  <o:CharactersWithSpaces>8551</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 81.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:76638318;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1738990268 819089328 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:254754228;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-913379516 -684818400 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:21.6pt;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:758327663;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2030153562 -684818400 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:21.6pt;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:1927573987;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1546194588 -1699991620 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:11.0pt'>ProDA User Manual<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:13.0pt;mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Version
+1.0<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Algorithm
+developed by Tu Minh Phuong, Chuong B. Do, Robert C. Edgar, and Serafim
+Batzoglou.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span class=GramE><span
+style='font-size:11.0pt'>Software written by Tu Minh Phuong and Chuong B. Do.</span></span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span class=GramE><span
+style='font-size:11.0pt'>Manual written by Tu Minh Phuong.</span></span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Introduction<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>ProDA
+(Protein Domain Aligner) is public domain software for generating multiple
+alignments of protein sequences with repeats and rearrangements, e.g. proteins
+with multiple domains. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Given
+a set of protein sequences as input, ProDA first finds local pairwise alignments
+between all pairs of sequences, then forms blocks of alignable sequence
+fragments, and finally generates multiple alignments of the blocks. ProDA
+relies on many techniques used in Probcons (<a
+href="http://probcons.stanford.edu/">http://probcons.stanford.edu</a>), a
+recent multiple <span class=GramE>aligner</span> that shows high accuracy in a
+number of popular benchmarks.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Algorithm
+outline<o:p></o:p></span></b></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt;mso-bidi-font-size:
+     12.0pt'>Compute local pairwise alignments for each pair of sequences using
+     either Viterbi or posterior decoding.<o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt;mso-bidi-font-size:
+     12.0pt'>Infer repeats from pairwise alignments.</span><span
+     style='font-size:11.0pt'><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt;mso-bidi-font-size:
+     12.0pt'>Generate a block of <i style='mso-bidi-font-style:normal'>alignable
+     sequence fragments.</i></span><span style='font-size:11.0pt'><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt;mso-bidi-font-size:
+     12.0pt'>Construct guide tree using <i style='mso-bidi-font-style:normal'>expected
+     accuracies</i> and adjustment of the block.</span><span style='font-size:
+     11.0pt'><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><i style='mso-bidi-font-style:normal'><span
+     style='font-size:11.0pt;mso-bidi-font-size:12.0pt'>Progressively align</span></i><span
+     style='font-size:11.0pt;mso-bidi-font-size:12.0pt'> the block using the
+     guide tree.</span><span style='font-size:11.0pt'><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt;mso-bidi-font-size:
+     12.0pt'>Extract final alignments from block alignment.</span><span
+     style='font-size:11.0pt'><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt'>Remove used pairwise
+     alignments.<o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Installation<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>The
+ProDA source code (proda_x_x.tar.gz) can be obtained from <a
+href="http://proda.stanford.edu/">http://proda.stanford.edu</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>To
+install and use ProDA,<o:p></o:p></span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l3 level1 lfo2;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt'>Decompress the files<o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:72.0pt'><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>gunzip</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'> proda_x_x.tar.gz<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;
+margin-left:18.0pt;margin-bottom:.0001pt;text-indent:72.0pt'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Courier New"'>tar</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'> -xvf proda_x_x.tar<o:p></o:p></span></p>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l3 level1 lfo2;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt'>A subdirectory
+     called </span><span style='font-size:11.0pt;font-family:"Courier New"'>proda/</span><span
+     style='font-size:11.0pt'> will be created in the current directory<o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l3 level1 lfo2;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt'>Change to </span><span
+     style='font-size:11.0pt;font-family:"Courier New"'>proda/</span><span
+     style='font-size:11.0pt'> directory and the the ProDA executable<o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:72.0pt'><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>cd</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'> proda<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;
+margin-left:18.0pt;margin-bottom:.0001pt;text-indent:72.0pt'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Courier New"'>make</span></span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<ol style='margin-top:0cm' start=4 type=1>
+ <li class=MsoNormal style='margin-top:12.0pt;mso-list:l3 level1 lfo2;
+     tab-stops:list 36.0pt'><span style='font-size:11.0pt'>Align the sequences
+     in file </span><span style='font-size:11.0pt;font-family:"Courier New"'>input</span><span
+     style='font-size:11.0pt'> and send the result to file </span><span
+     style='font-size:11.0pt;font-family:"Courier New"'>output</span><span
+     style='font-size:11.0pt'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:72.0pt'><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>./</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>proda input &gt; output<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Input format<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Proda
+accepts input files in the MFA format. The MFA format is specified below:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>The MFA format
+consists of multiple sequences.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>Each sequence in
+the MFA format begins with a single-line description, followed by lines of
+sequence data.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>The description
+line is distinguished from the sequence data by a greater-than
+(&quot;&gt;&quot;) symbol in the first column.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Output format<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>For
+a set of input sequences, Proda usually outputs several blocks in turn, each
+consists of alignable sequence fragments. Each block is followed by its
+multiple <span class=GramE>alignment</span>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>A
+block is specified by listing its sequence fragments. Each fragment is output
+as <i style='mso-bidi-font-style:normal'>sequence_<span class=GramE>name(</span>start-end)</i>,
+where <i style='mso-bidi-font-style:normal'>sequence_name</i> is the name of
+the original sequence and <i style='mso-bidi-font-style:normal'>start</i> and <i
+style='mso-bidi-font-style:normal'>end</i> are positions at which the fragment
+begins and ends respectively.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Proda
+produces block alignments in the ClustalW (ALN) format described below:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;
+tab-stops:list 21.6pt'><![if !supportLists]><span style='font-size:11.0pt;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>The ClustalW
+format consists of a single header line followed by sequence data in blocks of
+50 alignment positions.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level1 lfo4;
+tab-stops:list 21.6pt'><![if !supportLists]><span style='font-size:11.0pt;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>Each block
+consists of <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level2 lfo4;
+tab-stops:list 72.0pt'><![if !supportLists]><span style='font-size:11.0pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>one line of data
+for each of the sequences in the alignment; in particular,<span
+style='mso-spacerun:yes'>  </span>the name of the sequence<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level2 lfo4;
+tab-stops:list 72.0pt'><![if !supportLists]><span style='font-size:11.0pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>50 characters of
+the alignment<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l1 level2 lfo4;
+tab-stops:list 72.0pt'><![if !supportLists]><span style='font-size:11.0pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=GramE><span style='font-size:11.0pt'>one</span></span><span
+style='font-size:11.0pt'> annotation line indicating fully conserved (*),
+strongly-conserved (:), or weakly-conserved columns (.)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:11.0pt'>FASTA format for output<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>If
+the </span><span style='font-size:11.0pt;font-family:"Courier New"'>fasta</span><span
+style='font-size:11.0pt'> option is specified, then, in addition to regular
+output, ProDA produces a file containing block alignments in the FASTA format.
+The output file has the same name as the first input file and extension <i
+style='mso-bidi-font-style:normal'>.fasta</i>. Two consecutive block
+alignments are separated by a line containing character #.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>The
+FASTA format is described below:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>The FASTA format
+consists of all the sequences given in the input files.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>Each sequence in
+the FASTA format begins with a single-line description, followed by lines of
+sequence data.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>The description
+line is distinguished from the sequence data by a greater-than
+(&quot;&gt;&quot;) symbol in the first column.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:21.6pt;margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l2 level1 lfo3;
+tab-stops:list 21.6pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:11.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:11.0pt'>Aligned residues
+are in upper case, unaligned residues are in lower case.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:11.0pt'>Since a final alignment
+contains each sequence only once, this option should be used only if input
+sequences do not contain repeats.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;mso-layout-grid-align:none;
+text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:11.0pt'>Example<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:0cm;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:11.0pt'>Running ProDA on the following input file (containing
+protein sequences with SH3 and SH2 domains)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>&gt;GRB2_HUMAN<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MEAIAKYDFKATADDELSFKRGDILKVLNEECDQNWYKAELNGKDGFIPKNYIEMKPHPW<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>FFGKIPRAKAEEMLSKQRHDGAFLIRESESAPGDFSLSVKFGNDVQHFKVLRDGAGKYFL<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>WVVKFNSLNELVDYHRSTSVSRNQQIFLRDIEQVPQQPTYVQALFDFDPQEDGELGFRRG<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>DFIHVMDNSDPNWWKGACHGQTGMFPRNYVTPVNRNV<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>&gt;MATK_HUMAN<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MAGRGSLVSWRAFHGCDSAEELPRVSPRFLRAWHPPPVSARMPTRRWAPGTQCITKCEHT<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>RPKPGELAFRKGDVVTILEACENKSWYRVKHHTSGQEGLLAAGALREREALSADPKLSLM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>PWFHGKISGQEAVQQLQPPEDGLFLVRESARHPGDYVLCVSFGRDVIHYRVLHRDGHLTI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>DEAVFFCNLMDMVEHYSKDKGAICTKLVRPKRKHGTKSAEEELARAGWLLNLQHLTLGAQ<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>IGEGEFGAVLQGEYLGQKVAVKNIKCDVTAQAFLDETAVMTKMQHENLVRLLGVILHQGL<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>YIVMEHVSKGNLVNFLRTRGRALVNTAQLLQFSLHVAEGMEYLESKKLVHRDLAARNILV<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>SEDLVAKVSDFGLAKAERKGLDSSRLPVKWTAPEALKHGKFTSKSDVWSFGVLLWEVFSY<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRAPYPKMSLKEVSEAVEKGYRMEPPEGCPGPVHVLMSSCWEAEPARRPPFRKLAEKLAR<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>ELRSAGAPASVSGQDADGSTSPRSQEP<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>&gt;CRKL_HUMAN<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MSSARFDSSDRSAWYMGPVSRQEAQTRLQGQRHGMFLVRDSSTCPGDYVLSVSENSRVSH<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>YIINSLPNRRFKIGDQEFDHLPALLEFYKIHYLDTTTLIEPAPRYPSPPMGSVSAPNLPT<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>AEDNLEYVRTLYDFPGNDAEDLPFKKGEILVIIEKPEEQWWSARNKDGRVGMIPVPYVEK<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>LVRSSPHGKHGNRNSNSYGIPEPAHAYAQPQTTTPLPAVSGSPGAAITPLPSTQNGPVFA<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>KAIQKRVPCAYDKTALALEVGDIVKVTRMNINGQWEGEVNGRKGLFPFTHVKIFDPQNPD<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>ENE<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:0cm'><span class=GramE><span style='font-size:11.0pt'>will</span></span><span
+style='font-size:11.0pt'> generate the following output (with posterior
+option, see instructions below):<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MATK_<span
+class=GramE>HUMAN(</span>51-100) GRB2_HUMAN(1-48) GRB2_HUMAN(159-205) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>CRKL_<span
+class=GramE>HUMAN(</span>126-173) CRKL_HUMAN(238-286) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MATK_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>TQ--CITKCEHTRPKPGELAFRKGDVVTILE-ACENKSWYRV-KHHTSGQEGLL<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRB2_HUMAN
+<span
+style='mso-spacerun:yes'>   </span>ME--AIAKYDFKATADDELSFKRGDILKVLNEECDQN-WYKA-E--LNGKDGFI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRB2_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>TY--VQALFDFDPQEDGELGFRRGDFIHVMD-NSDPN-WWKG-A--CHGQTGMF<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>CRKL_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>EY--VRTLYDFPGNDAEDLPFKKGEILVIIE-KPEEQ-WWSARN--KDGRVGMI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>CRKL_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>VFAKAIQKRVPCAYDKTALALEVGDIVKVTR-MNINGQW-EG-E--VNGRKGLF<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'>                                </span>* :. *:.:
+:<span style='mso-spacerun:yes'>         </span>*<span
+style='mso-spacerun:yes'>         </span>*: *::<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRB2_<span
+class=GramE>HUMAN(</span>50-146) MATK_HUMAN(112-207) CRKL_HUMAN(4-99) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRB2_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>KNYIEMKPHPWFFGKIPRAKAEEMLSKQRHDGAFLIRESESAPGDFSLSVKFGNDVQHFK<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MATK_HUMAN<span
+style='mso-spacerun:yes'>    </span>SADPKLSLMPWFHGKISGQEAVQQLQPPED-GLFLVRESARHPGDYVLCVSFGRDVIHYR<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>CRKL_HUMAN<span
+style='mso-spacerun:yes'>   
+</span>ARFDSSDRSAWYMGPVSRQEAQTRLQGQRH-GMFLVRDSSTCPGDYVLSVSENSRVSHYI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'>                  </span>. .<span
+style='mso-spacerun:yes'>  </span>.*: * :.<span style='mso-spacerun:yes'> 
+</span>:*<span style='mso-spacerun:yes'>   </span>*.<span
+style='mso-spacerun:yes'>  </span>.. * **:*:*<span style='mso-spacerun:yes'>  
+</span>***: *.*. .<span style='mso-spacerun:yes'>  </span>* *: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>GRB2_HUMAN<span
+style='mso-spacerun:yes'>    </span>VLRDGAGKYFLWVVKFNSLNELVDYHRSTSVSRNQQI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>MATK_HUMAN<span
+style='mso-spacerun:yes'>    </span>VLHRDGHLTIDEAVFFCNLMDMVEHYSKDKGAICTKL<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'>CRKL_HUMAN<span
+style='mso-spacerun:yes'>    </span>INSLPNRRFKIGDQEFDHLPALLEFYKIHYLDTTTLI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:9.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'>              </span>:<span
+style='mso-spacerun:yes'>              </span>*<span style='mso-spacerun:yes'> 
+</span>*<span style='mso-spacerun:yes'>  </span>:::.:<span
+style='mso-spacerun:yes'>          </span>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.0pt;mso-bidi-font-size:11.0pt'>Command line
+options<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>ProDA
+command line options are detailed below.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:11.0pt'>General usage<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;text-indent:36.0pt'><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>./</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>proda [OPTION]  MFAFILE
+[MFAFILE]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:11.0pt'>-L min_length<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><i style='mso-bidi-font-style:
+normal'><span style='font-size:11.0pt'>Set minimal alignment length equal to
+min_length.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Description:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span>ProDA
+finds alignments of length greater than or equal to a threshold <i
+style='mso-bidi-font-style:normal'>L<sub>MIN</sub></i>. By default, <i
+style='mso-bidi-font-style:normal'>L<sub>MIN</sub></i> = 30. This option sets
+the threshold to min_length.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Example usage:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt'><span class=GramE><span
+style='font-size:11.0pt;font-family:"Courier New"'>.</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>/proda L 20 input.mfa &gt;
+output.aln<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt'>-posterior<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><i
+style='mso-bidi-font-style:normal'><span style='font-size:11.0pt'>Use posterior
+decoding when computing local pairwise alignments.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Description:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span>ProDA
+computes local pairwise alignments between two sequences using a pair-HMM and
+either Viterbi decoding or posterior decoding. The default option is using
+Viterbi decoding which is faster than posterior decoding but may be less
+accurate. Turning on this option instructs the aligner to use posterior
+decoding instead. In the example above, the output was generated with <b>posterior</b>
+option turned on.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Example usage:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span></span><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>./</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>proda posterior input.mfa
+&gt; output.aln<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt'>-silent<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><i
+style='mso-bidi-font-style:normal'><span style='font-size:11.0pt'>Do not report
+progress while aligning.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Description:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span>Turning
+on this option instructs the aligner not to report the progress while aligning.
+By default, ProDA reports the progress on all pairwise alignments, block
+generation, and on block alignment. Since some stages of the algorithm,
+especially pairwise alignment, may take long time, reporting progress makes the
+program look alive while running.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Example usage:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span></span><span
+class=GramE><span style='font-size:11.0pt;font-family:"Courier New"'>./</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>proda silent input.mfa &gt;
+output.aln<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt'>-<span
+class=GramE>tran</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><i
+style='mso-bidi-font-style:normal'><span style='font-size:11.0pt'>Use
+transitivity when forming blocks of alignable sequence fragments.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Description:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span>Two
+sequence fragments are <i style='mso-bidi-font-style:normal'>directly</i> <i
+style='mso-bidi-font-style:normal'>alignable</i> if they are parts of a local
+pairwise alignment. By default, two fragments are considered <i
+style='mso-bidi-font-style:normal'>alignable</i> if and only if they are
+directly alignable. Turning on this option instructs the aligner to consider
+two fragments alignable when they are directly alignable or when both of them
+are directly alignable to a third fragment.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Example usage:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><span style='mso-tab-count:1'>            </span><span
+class=GramE>./</span>proda tran input.mfa &gt; output.aln<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt'>-fasta<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><i
+style='mso-bidi-font-style:normal'><span style='font-size:11.0pt'>Use FASTA
+output format in addition to the ClustalW format.<o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'>Description:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt'><span style='font-size:11.0pt'>When
+this option is turned on, the aligner generates output in the FASTA format and
+stores in a file with the same name as the first input file and extension
+.fasta, in addition to the normal output to stdout. This option should be
+used only if input sequences do not contain repeats.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'>Example
+usage:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt'><span style='font-size:11.0pt'><span
+style='mso-tab-count:1'>            </span></span><span class=GramE><span
+style='font-size:11.0pt;font-family:"Courier New"'>./</span></span><span
+style='font-size:11.0pt;font-family:"Courier New"'>proda fasta input.mfa &gt;
+output.aln<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-36.0pt'><span
+style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
