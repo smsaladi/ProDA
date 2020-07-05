@@ -7,6 +7,7 @@
 #ifndef ALIGNFRAGMENT_H
 #define ALIGNFRAGMENT_H
 
+#include <cstdio>
 #include <vector>
 
 class Fragment;

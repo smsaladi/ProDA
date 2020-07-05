@@ -1,6 +1,9 @@
 // AlignedFragment.cpp: implementation of the AlignedFragment class.
 //
 //////////////////////////////////////////////////////////////////////
+using namespace std;
+#include <cstdio>
+#include <cstring>
 
 #include "AlignedFragment.h"
 #include "Assert.h"

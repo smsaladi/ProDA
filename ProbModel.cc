@@ -2,8 +2,10 @@
 // ProbModel.cc
 //////////////////////////////////////////////////////////////////////
 
-#include <stdio.h>
-#include <ctype.h>
+#include <cstdio>
+#include <cctype>
+#include <cstring>
+
 #include "ProbModel.h"
 #include "Utilities.h"
 

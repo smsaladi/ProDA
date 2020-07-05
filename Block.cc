@@ -1,6 +1,7 @@
 // Block.cpp: implementation of the Block class.
 //
 //////////////////////////////////////////////////////////////////////
+#include <cstdlib>
 
 #include "Block.h"
 #include "AlignedFragment.h"

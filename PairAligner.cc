@@ -4,6 +4,9 @@
 // Implementation of PairAligner class
 ////////////////////////////////////////////////////////////////////
 
+#include <cstring>
+#include <cstdlib>
+
 #include "PairAligner.h"
 #include "Utilities.h"
 #include "LocalAlign.h"

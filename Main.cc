@@ -2,10 +2,12 @@
 // Main.cc
 //////////////////////////////////////////////////////////////////////
 
+#include <climits>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <vector>
+
 #include "Assert.h"
 #include "MultiSequence.h"
 #include "ProbModel.h"
