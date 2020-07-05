@@ -2,30 +2,11 @@
 # Makefile for proda
 ################################################################################
 
-################################################################################
-# 1) Choose C++ compiler.
-################################################################################
-
 CXX = g++
-
-################################################################################
-# 2) Set C++ flags.
-#    a) DEBUG mode -- no optimizations, no inlining
-#    b) PROFILE mode -- for gprof
-#    c) RELEASE mode
-################################################################################
 
 OTHERFLAGS = -DVERSION="\"1.00\""
 
-# debug mode    
-CXXFLAGS = -g -W -Wall -pedantic $(OTHERFLAGS)
-
-# profile mode
-#CXXFLAGS = -pg -W -Wall -pedantic $(OTHERFLAGS)
-
-# release mode
-#CXXFLAGS = -O3 -W -Wall -pedantic -DNDEBUG $(OTHERFLAGS) -mmmx -msse -msse2 -mfpmath=sse -march=pentium4 -mcpu=pentium4 -funroll-loops -fomit-frame-pointer 
-#CXXFLAGS = -O3 -W -Wall -pedantic -DNDEBUG $(OTHERFLAGS) -funroll-loops 
+CXXFLAGS = -O3 -W -Wall -pedantic -DNDEBUG $(OTHERFLAGS) -mmmx -msse -msse2 -mfpmath=sse -funroll-loops -fomit-frame-pointer 
 
 ################################################################################
 # 3) Dependencies
